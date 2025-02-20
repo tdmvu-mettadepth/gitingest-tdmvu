@@ -1,0 +1,250 @@
+{
+   "aetna": {
+      "Numerical": [
+         "Provider Individual NPI - NPI Number (Type I)",
+         "TIN",
+         "Organizational NPI (NPI_Group)",
+         "Service ZIP",
+         "Service ZIP Extension",
+         "Billing ZIP",
+         "Billing ZIP Extension"
+      ],
+      "ZIP": [
+         "Service ZIP",
+         "Service ZIP Extension",
+         "Billing ZIP",
+         "Billing ZIP Extension"
+      ],
+      "TIN": [
+         "TIN"
+      ],
+      "NPI": [
+         "Provider Individual NPI - NPI Number (Type I)",
+         "Organizational NPI (NPI_Group)"
+      ],
+      "Binary": [
+         "Employment Status",
+         "Gender",
+         "Board Cert (Y/N)",
+         "Does this Organizational NPI apply to all Service Locations and Billing Addresses for this Tax id? (Yes or No)",
+         "Does this Organizational NPI apply to all providers using this Tax id? (Yes or No)",
+         "Does this Organizational NPI apply to all Service Locations and Billing Addresses for this provider only?   (Yes or No)",
+         "Does this Organizational NPI apply to all tax ids for this provider only? (Yes or No)",
+         "Primary Service Location (Y/N)",
+         "Do you practice at this service location?",
+         "ADA (Y/N)",
+         "Accepting Patients at location?",
+         "Directory Print (Y/N)"
+      ],
+      "Alpha Numeric": [
+         "State License Number"
+      ],
+      "DateTime": [
+         "Employment Effective Date",
+         "DOB",
+         "Board Cert Effective Date",
+         "Board Cert Expiration Date",
+         "State Licence Issue Date",
+         "State Lic Expiration Date",
+         "Network TIN/Service Location Effective Date",
+         "Network TIN/Billing Location Effective Date",
+         "Original Credential Date",
+         "Most Recent Recredentialing Date",
+         "Most Recent Cred Committee Date"
+      ],
+      "Phone": [
+         "Service Phone",
+         "Service Fax",
+         "Billing Phone",
+         "Billing Fax"
+      ],
+      "State": [
+         "Service State",
+         "Billing State"
+      ],
+      "Others": [
+         "Delegated Group Name/Contracted Entity Name",
+         "Last Name",
+         "First Name",
+         "Degree 1",
+         "Role",
+         "Specialty 1",
+         "Specialty 1 Board Name",
+         "Medical School Instiution Name",
+         "Public/Physician Email",
+         "Hospital Affiliation Name 1",
+         "TIN Owner Name (W9)",
+         "Practice Name",
+         "Please describe the service location",
+         "Service Address (no PO Box)",
+         "Service Suite (no PO Box)",
+         "Service City",
+         "Office Hours",
+         "Practice Age Limitations",
+         "Description of how patients are seen at each location for the specific provider",
+         "Billing Address",
+         "Billing Suite",
+         "Billing City"
+      ]
+   },
+"anthem" :
+{
+   "Numerical":[
+      "NPI",
+      "ZIP",
+      "PHONE",
+      "FAX",
+      "ZIP.1",
+      "PHONE.1",
+      "FAX.1",
+      "TAX ID"
+   ],
+   "TIN":[
+      "TAX ID"
+   ],
+   "NPI":[
+      "NPI"
+   ],
+   "Phone":[
+      "PHONE",
+      "FAX",
+      "PHONE.1",
+      "FAX.1"
+   ],
+   "ZIP":[
+      "ZIP",
+      "ZIP.1"
+   ],
+   "Binary":[
+      "GENDER",
+      "HIV SPECIALIST"
+   ],
+   "AlphaNumeric":[
+      "LICENSE#",
+      "DEA",
+      "POLICY NUMBER"
+   ],
+   "DateTime":[
+      "Effective Date",
+      "DOB",
+      "LIC ISSUE DATE",
+      "LIC EXP DATE",
+      "DEA EXP DATE",
+      "COMPLETE DATE",
+      "START DATE",
+      "COMPLETE DATE.1",
+      "START DATE.1",
+      "COMPLETE DATE.2",
+      "BOARD EXP DATE",
+      " BOARD EXP DATE",
+      "EFFECTIVE DATE",
+      "EXP DATE"
+   ],
+   "State":[
+      "STATE",
+      "STATE.1"
+   ],
+   "Others":[
+      "LAST NAME",
+      "FIRST NAME",
+      "MIDDLE INITIAL",
+      "DEGREE",
+      "PROVIDER TYPE",
+      "PRIMARY ADDRESS 1",
+      "SUITE",
+      "CITY",
+      "OFFICE HOURS",
+      "MAILING ADDRESS 1",
+      "SUITE.1",
+      "CITY.1",
+      "MED SCHOOL",
+      "RESIDENCY INSTITUTION",
+      "SPECIALTY",
+      "FELLOWSHIP INSTITUTION",
+      "SPECIALTY.1",
+      "PRIMARY SPECIALTY",
+      "BOARD",
+      "SECONDARY SPECIALTY",
+      "BOARD.1",
+      "HOSPITAL PRIVILEGES ",
+      "HOSPITAL ARRANGEMENT (Y/N, FACILITY NAME)\n(A provider within the group will admit if necessary)",
+      "LIABILITY CARRIER",
+      "CLAIM LIMITS",
+      "PROVIDER OTHER LANGUAGE"
+   ]
+},
+"cigna":{
+   "Numerical":[
+      "NPI",
+      "TIN",
+      "Office TIN",
+      "Office Zip",
+      "Billing Zip"
+   ],
+   "TIN":[
+      "SSN",
+      "TIN",
+      "Office TIN"
+   ],
+   "NPI":[
+      "NPI"
+   ],
+   "Phone":[
+      "Office Phone",
+      "Billing Phone"
+   ],
+   "ZIP":[
+      "Office Zip",
+      "Billing Zip"
+   ],
+   "Binary":[
+      "Gender",
+      "Behavioral Telehealth (Y or N)",
+      "Employee assistant program (EAP) specialty services (see \"Required Data Elements\" worksheet)"
+   ],
+   "AlphaNumeric":[
+      "License Number",
+      "DEA "
+   ],
+   "DateTime":[
+      "DOB",
+      "License Expire",
+      "DEA Expire",
+      "Board Expire\n(i.e. 3/1/2016)",
+      "Board Expire 2\n(i.e. 3/1/2016)",
+      "Initial Credentialing Committee Approval Date",
+      "Last Recredentialing Committee Approval Date",
+      "Effective date (if different from Committee Approval date)"
+   ],
+   "State":[
+      "License State",
+      "DEA State\n(**must be listed in state of practice to meet criteria for inclusion)",
+      "Office State",
+      "Billing State"
+   ],
+   "Others":[
+      "Last Name (Exactly as it appears on License)",
+      "First Name (Exactly as it appears on License)",
+      "MI",
+      "Highest level of education (Degree)",
+      "License Type\n(i.e. LP - licensed psychologist, LCSW, MD etc)",
+      "Supervising Physician\n(if applicable, PA-C's only)",
+      "Board Certification Name\n(i.e. ABPN)",
+      "Board Subspecialty\n(i.e. Psychiatry",
+      "Board Certification Name 2\n(i.e. ABPN)",
+      "Board Subspecialty 2\n(i.e. Child and Adolescent",
+      "Language",
+      "Practice Name",
+      "Office Address",
+      "Office City",
+      {
+         "If multiple office locations add an extra line or \"office location 2\", etc columns":0
+      },
+      "Billing Address",
+      "Billing City",
+      "Areas of clinical practice (see \"Required Data Elements\" worksheet)",
+      "Disorders and treatment modalities (see \"Required Data Elements\" worksheet)",
+      "Specialty patient populations (see \"Required Data Elements\" worksheet)"
+   ]
+}
+}

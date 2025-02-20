@@ -1,0 +1,7 @@
+*.csv
+*.pyc
+*.ipynb
+*.xlsx
+test.ipynb
+app/models/
+
